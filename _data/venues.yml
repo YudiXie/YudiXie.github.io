@@ -1,9 +1,9 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"COSYNE":
+  url: https://www.cosyne.org/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"CCN":
+  url: https://www.ccneuro.org/
 
-"Vision":
+"bioRxiv":
   color: "#009f36"
