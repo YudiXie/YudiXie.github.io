@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://yudixie.github.io/sitemap.xml
