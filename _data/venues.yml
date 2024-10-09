@@ -7,3 +7,23 @@
 
 "Vision":
   color: "#009f36"
+
+"COSYNE":
+  url: https://www.cosyne.org/
+  color: "#A6045D"
+
+"CCN":
+  url: https://www.ccneuro.org/
+  color: "#CFF4FC"
+
+"bioRxiv":
+  url: https://www.biorxiv.org/
+  color: "#BD2736"
+
+"Neuron":
+  url: https://www.cell.com/neuron/home
+  color: "#027DBC"
+
+"Elife":
+  url: https://elifesciences.org/
+  color: "#0A7ACC"
