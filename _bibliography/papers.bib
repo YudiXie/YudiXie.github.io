@@ -12,6 +12,22 @@
   selected={true},
   abbr={COSYNE},
   bibtex_show={true},
+  pdf={https://hdl.handle.net/1721.1/153744},
+  abstract={Image-computable modeling of primate ventral stream visual processing has made great strides via brain-mapped 
+    versions of convolutional neural networks (CNNs) that are optimized on thousands of object categories (ImageNet), the performance 
+    of which strongly predicts CNNs' neural alignment. However, human and primate visual intelligence extends far beyond object categorization, 
+    encompassing a diverse range of tasks, such as estimating the latent variables of object position or pose in the image. 
+    The influence of task choice on neural alignment in CNNs, compared to CNN architecture, remains underexplored, partly due to the scarcity of 
+    large-scale datasets with rich known labels beyond categories. 3D graphic engines, capable of creating training images with detailed 
+    information on various latent variables, offer a solution. Here, we asked how the choice of visual tasks that are used to train CNNs 
+    (i.e., the set of latent variables to be estimated) affects their ventral stream neural alignment. We focused on the estimation of variables 
+    such as object position and pose, and we tested CNNs' neural alignment via the Brain-Score open science platform. We found some of these CNNs 
+    had neural alignment scores that were very close to those trained on ImageNet, even though their entire training experience has been on synthetic 
+    images. Additionally, we found training models on just a handful of latent variables achieved the same level of neural alignment as models 
+    trained on a much larger number of categories, suggesting that latent variable training is more efficient than category training in driving 
+    model-neural alignment. Moreover, we found that these models' neural alignment scores scale with the amount of synthetic data used during 
+    training, suggesting the potential of obtaining more aligned models with larger synthetic datasets. This study highlights the effectiveness of 
+    using synthetic datasets and latent variables in advancing image-computable models of the ventral visual stream.},
 }
 
 
@@ -25,6 +41,15 @@
   selected={true},
   abbr={bioRxiv},
   bibtex_show={true},
+  pdf={https://www.biorxiv.org/content/10.1101/2023.03.30.534982v1},
+  abstract={The limited capacity of the brain to retain information in working memory has been well-known and studied for decades, yet the 
+    root of this limitation remains unclear. Here we built sensory-cognitive neural network models of working memory that perform tasks using 
+    raw visual stimuli. Contrary to intuitions that working memory capacity limitation stems from memory or cognitive constraints, we found that 
+    pre-training the sensory region of our models with natural images imposes sufficient constraints on models to exhibit a wide range of human-like 
+    behaviors in visual working memory tasks designed to probe capacity. Examining the neural mechanisms in our model reveals that capacity 
+    limitation mainly arises in a bottom-up manner. Our models offer a principled and functionally grounded explanation for the working memory 
+    capacity limitation without parameter fitting to behavioral data or much hyperparameter tuning. This work highlights the importance of 
+    developing models with realistic sensory processing even when investigating memory and other high-level cognitive phenomena.},
 }
 
 
@@ -36,6 +61,17 @@
   selected={true},
   abbr={CCN},
   bibtex_show={true},
+  pdf={https://2022.ccneuro.org/view_papercfd7.html?PaperNum=1251},
+  abstract={Working memory (WM) enables humans and other animals to hold information temporarily for various kinds of mental processing. 
+    WM has limited capacity and the maintenance of information in WM involves interactions between multiple brain regions. To account for such 
+    properties, we built multi-system models of WM, i.e., models that involve both sensory and cognitive systems, and their interactions. Our 
+    contributions are twofold, involving engineering and science. Engineering-wise, we built a framework to systematically construct such models 
+    to generate and test hypotheses in neuroscience research. Our models take sensory stimuli in their raw form, and reproduce diverse behavioral 
+    and neural findings across classical and recent WM experiments. Science-wise, our framework allows us to dissect the sensory and cognitive 
+    system's contribution to WM capacity limitation. Our models reproduced behavioral findings in several WM tasks commonly used to assess capacity 
+    limitation. We found human-like capacity limitations arise in models with sensory systems pre-trained to recognize natural images, but not in 
+    models trained end-to-end on WM tasks. Our results suggest that WM capacity limitation is partly attributed to the sensory system when it is 
+    optimized for naturalistic objectives other than tasks artificially designed to probe WM.},
 }
 
 
@@ -51,6 +87,15 @@
   selected={true},
   abbr={Neuron},
   bibtex_show={true},
+  pdf={https://doi.org/10.1016/j.neuron.2022.08.022},
+  abstract={Animals both explore and avoid novel objects in the environment, but the neural mechanisms that underlie these behaviors and their 
+    dynamics remain uncharacterized. Here, we used multi-point tracking (DeepLabCut) and behavioral segmentation (MoSeq) to characterize the 
+    behavior of mice freely interacting with a novel object. Novelty elicits a characteristic sequence of behavior, starting with investigatory 
+    approach and culminating in object engagement or avoidance. Dopamine in the tail of the striatum (TS) suppresses engagement, and dopamine 
+    responses were predictive of individual variability in behavior. Behavioral dynamics and individual variability are explained by a 
+    reinforcement-learning (RL) model of threat prediction in which behavior arises from a novelty-induced initial threat prediction 
+    (akin to “shaping bonus”) and a threat prediction that is learned through dopamine-mediated threat prediction errors. These results uncover 
+    an algorithmic similarity between reward- and threat-related dopamine sub-systems.},
 }
 
 @article{wang2020flexible,
@@ -64,4 +109,13 @@
   selected={true},
   abbr={Elife},
   bibtex_show={true},
+  pdf={https://elifesciences.org/articles/56942},
+  abstract={Complex animal behaviors arise from a flexible combination of stereotyped motor primitives. Here we use the escape responses of 
+    the nematode Caenorhabditis elegans to study how a nervous system dynamically explores the action space. The initiation of the escape 
+    responses is predictable: the animal moves away from a potential threat, a mechanical or thermal stimulus. But the motor sequence and the 
+    timing that follow are variable. We report that a feedforward excitation between neurons encoding distinct motor states underlies robust 
+    motor sequence generation, while mutual inhibition between these neurons controls the flexibility of timing in a motor sequence. Electrical 
+    synapses contribute to feedforward coupling whereas glutamatergic synapses contribute to inhibition. We conclude that C. elegans generates 
+    robust and flexible motor sequences by combining an excitatory coupling and a winner-take-all operation via mutual inhibition between motor 
+    modules.},
 }
