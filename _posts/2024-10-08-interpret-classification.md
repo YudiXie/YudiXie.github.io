@@ -23,6 +23,8 @@ toc:
       - name: A simple classification example
       - name: A harder example with a more complex posterior
       - name: An even harder classification example
+
+citation: true
 ---
 
 ## What do output unit activities really mean?
