@@ -209,8 +209,8 @@ Now, let us explore a basic empirical example. Suppose we observe a single data 
 \end{split}
 \end{equation}
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center mt-3">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/blog_figures/20241008/pdf_m1_0_s1_1_m2_3_s2_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
@@ -255,8 +255,8 @@ In the previous section, we proved that the theoretically derived Bayesian poste
 
 ### A harder example with a more complex posterior
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center mt-3">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/blog_figures/20241008/pdf_m1_0_s1_2_m2_1_s2_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
@@ -279,8 +279,8 @@ In above figure, we compare the theoretically derived Bayesian posterior with th
 
 ### An even harder classification example
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center mt-3">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/blog_figures/20241008/pdf_m1_0_s1_2_m2_3_s2_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
