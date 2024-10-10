@@ -1,6 +1,9 @@
 ---
 layout: distill
 title: How do we interpret the outputs of a neural network trained on classification?
+description: This post shows how neural networks trained for classification approximate the Bayesian posterior, explaining the theoretical basis and providing empirical examples.
+tags: machine-learning interpretability
+giscus_comments: true
 date: 2024-10-08
 featured: true
 
