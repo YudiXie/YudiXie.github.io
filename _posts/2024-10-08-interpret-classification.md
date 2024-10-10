@@ -183,7 +183,7 @@ In practice, the loss is estimated by taking mini-batches of data $$\{(x_j, c_j)
 \begin{split}
     \overline{\mathbb{L}}\_{CE}(P(C|X), q\_\theta(C|X))
     & \approx \widehat{\mathbb{L}}\_{CE}(P(C|X), q\_\theta(C|X)) \newline
-    & = - \frac{1}{N} \sum\_{j=1}^N \sum\_{i=1}^M \log ({q\_{\theta}(C=i|x\_j)}) \cdot 1\{c\_j = i\}
+    & = - \frac{1}{N} \sum\_{j=1}^N \sum\_{i=1}^M \log ({q\_{\theta}(C=i|x\_j)}) \cdot 1\\{c\_j = i\\}
 \end{split}
 \end{equation}
 
