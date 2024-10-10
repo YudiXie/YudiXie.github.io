@@ -304,3 +304,20 @@ Let us consider an even more challenging example, shown in the above figure, whe
 As shown in the above figure, after 1000 mini-batch updates, the model successfully learns the first crossing point of the posterior on the left, but it struggles to capture the second crossing point. Even after 10,000 batches, the model's output still deviates significantly from the theoretical posterior. One potential reason for this difficulty is that very little probability mass is concentrated on the right side of the x-axis for both classes. The sparsity of the training data in that region makes it much harder for the model to learn the posterior shape correctly.
 
 In summary, we have shown that the model approximates the posterior well in many simple cases. However, the model's ability to accurately approximate the posterior depends not only on the complexity of the shape of the posterior, but also on the underlying data distribution. In regions where the data is sparse, it becomes much more challenging for the model to learn the correct posterior shape.
+
+---
+
+If you spot any mistakes or errors in this post, feel free to leave a comment below or reach out to me via the email provided on the main page. I'd be happy to correct them promptly 😊
+
+If you found this useful, you can cite this as:
+
+{% highlight plaintext %}
+@article{xie2024how,
+  title   = {How do we interpret the outputs of a neural network trained on classification?},
+  author  = {Xie, Yudi},
+  journal = {yudixie.github.io},
+  year    = {2024},
+  month   = {Oct},
+  url     = {https://yudixie.github.io/blog/2024/interpret-classification/}
+}
+{% endhighlight %}
