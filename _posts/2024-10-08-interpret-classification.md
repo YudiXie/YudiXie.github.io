@@ -4,6 +4,7 @@ title: How do we interpret the outputs of a neural network trained on classifica
 giscus_comments: true
 date: 2024-10-08
 featured: true
+citation: true
 
 authors:
   - name: Yudi Xie
@@ -23,8 +24,6 @@ toc:
       - name: A simple classification example
       - name: A harder example with a more complex posterior
       - name: An even harder classification example
-
-citation: true
 ---
 
 ## What do output unit activities really mean?
