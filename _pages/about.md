@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD student at <a href='https://bcs.mit.edu/'>MIT BCS</a>. I build deep learning and probabilistic models to understand the brain and mind.
 
