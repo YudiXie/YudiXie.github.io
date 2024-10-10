@@ -14,7 +14,7 @@ bibliography: 2024-10-08-interpret-classification.bib
 
 toc:
   - name: What do output unit activities really mean?
-  - name: Previous Work on this Topic
+  - name: Previous studies on this topic
   - name: Deriving the classification objective using maximum likelihood
   - name: Interpretation of outputs as the Bayesian posterior
   - name: Empirical studies with known generative models
@@ -43,9 +43,9 @@ This raises the question: **What do the activations in the output layer actually
 
 Here, we try to answer the question: What do the probabilities predicted by a neural network in classification tasks actually represent? We will show that, in the limit, these probabilities are trained to match the Bayesian posterior probability of an ideal observer having access to a generative model that has generated the data. This also implies that if we have access to a probabilistic generator of the data and class labels, we can train neural network models to infer the class from data without performing the often intractable posterior calculation (usually called the "inference" problem).
 
-## Previous Work on this Topic
+## Previous studies on this topic
 
-Many studies, particularly from the early 1990s, have demonstrated that neural networks can approximate the Bayesian posterior when trained on classification tasks. The mathematical proof and empirical study in this work are inspired by Richard and Lippmann 1991<d-cite key="richard1991neural"></d-cite>. While they provided proofs for cases where output units are unconstrained, they did not address the case where output units are softmax-transformed -- a condition widely used in practice today. Several other papers<d-cite key="suter1990multilayer,hampshire1991equivalence,gish1990probabilistic"></d-cite> also explored this problem and presented similar proofs. This tutorial aims to synthesize these earlier studies and offer a clearer understanding of the results in a modern context. For those interested, we also provide the code repository for implementing the experiment using PyTorch: [https://github.com/YudiXie/interpret-classification](https://github.com/YudiXie/interpret-classification).
+Many studies, particularly from the early 1990s, have demonstrated that neural networks can approximate the Bayesian posterior when trained on classification tasks. The mathematical proof and empirical study in this post are inspired by Richard and Lippmann 1991<d-cite key="richard1991neural"></d-cite>. While they provided proofs for cases where output units are unconstrained, they did not address the case where output units are softmax-transformed -- a condition widely used in practice today. Several other papers<d-cite key="suter1990multilayer,hampshire1991equivalence,gish1990probabilistic"></d-cite> also explored this problem and presented similar proofs. This post aims to synthesize these earlier studies and offer a clearer understanding of the results in a modern context. For those interested, we also provide the code repository for implementing the experiment using PyTorch: [https://github.com/YudiXie/interpret-classification](https://github.com/YudiXie/interpret-classification).
 
 ## Deriving the classification objective using maximum likelihood
 
