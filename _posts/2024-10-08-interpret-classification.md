@@ -1,7 +1,6 @@
 ---
 layout: distill
 title: How do we interpret the outputs of a neural network trained on classification?
-giscus_comments: true
 date: 2024-10-08
 featured: true
 
