@@ -298,7 +298,7 @@ Let us consider an even more challenging example, shown in the above figure, whe
     </div>
 </div>
 <div class="caption">
-    Comparing the theoretically derived Bayesian posterior with neural network output at different stages of training. Showing neural network results after 10, 100, and 1000 mini-batch updates.
+    Comparing the theoretically derived Bayesian posterior with neural network output at different stages of training. Showing neural network results after 100, 1000, and 10000 mini-batch updates.
 </div>
 
 As shown in the above figure, after 1000 mini-batch updates, the model successfully learns the first crossing point of the posterior on the left, but it struggles to capture the second crossing point. Even after 10,000 batches, the model's output still deviates significantly from the theoretical posterior. One potential reason for this difficulty is that very little probability mass is concentrated on the right side of the x-axis for both classes. The sparsity of the training data in that region makes it much harder for the model to learn the posterior shape correctly.
