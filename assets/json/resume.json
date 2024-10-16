@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Yudi Xie",
-    "abs": "I am a PhD student at MIT BCS. I build deep learning and probabilistic models to understand the brain and mind. "
+    "summary": "I am a PhD student at MIT BCS. I build deep learning and probabilistic models to understand the brain and mind. "
   },
   "education": [
     {
