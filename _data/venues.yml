@@ -1,13 +1,3 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
-
 "COSYNE":
   url: https://www.cosyne.org/
   color: "#A6045D"
@@ -27,3 +17,7 @@
 "Elife":
   url: https://elifesciences.org/
   color: "#0A7ACC"
+
+"Nature":
+  url: https://www.nature.com/
+  color: "#006699"
