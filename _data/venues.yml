@@ -21,3 +21,7 @@
 "Nature":
   url: https://www.nature.com/
   color: "#006699"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#AB1919"
