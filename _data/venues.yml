@@ -14,7 +14,7 @@
   url: https://www.cell.com/neuron/home
   color: "#027DBC"
 
-"Elife":
+"eLife":
   url: https://elifesciences.org/
   color: "#0A7ACC"
 
@@ -25,3 +25,7 @@
 "arXiv":
   url: https://arxiv.org/
   color: "#AB1919"
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "#86C73E"
