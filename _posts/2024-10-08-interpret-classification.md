@@ -32,6 +32,8 @@ toc:
   - name: Conclusions and discussions
 ---
 
+This post has been accepted at the [ICLR 2025 blogpost track](https://iclr-blogposts.github.io/2025/about/). See the pdf version of this post [here](https://hdl.handle.net/1721.1/159032).
+
 ## What do output unit activities really mean?
 
 Deep neural networks trained for classification tasks have been a key driver in the rise of modern deep learning. Training networks for classification is often one of the first lessons or tutorials people encounter when they begin their journey with deep learning. In classification tasks, the [multi-class classification](https://en.wikipedia.org/wiki/Multiclass_classification) problem is one of the most common types of classification problems that people encounter. Widely used datasets, like MNIST, CIFAR-10/100, and ImageNet, are all geared toward the multi-class classification problem. In this problem, the model is trained to receive some data $$X$$ as input and infer its class label $$C$$ from one of the $$M$$ total possible classes. Each data point has one and only one class label from $$M$$ possible classes $$c \in \{1 ... M\}$$. For example, if we train a convolutional neural network (CNN) to do classification on ImageNet, the data $$X$$ is the input image, and the output class label $$C$$ is one of the 1000 classes in the ImageNet dataset.
@@ -332,12 +334,10 @@ If you spot any mistakes or errors in this post, feel free to leave a comment be
 If you found this useful, you can cite this as:
 
 {% highlight plaintext %}
-@article{xie2024how,
-  title   = {How do we interpret the outputs of a neural network trained on classification?},
-  author  = {Xie, Yudi},
-  journal = {yudixie.github.io},
-  year    = {2024},
-  month   = {Oct},
-  url     = {https://yudixie.github.io/blog/2024/interpret-classification/}
+@inproceedings{xie2025we,
+  title={How do we interpret the outputs of a neural network trained on classification?},
+  author={Xie, Yudi},
+  booktitle={The Fourth Blogpost Track at ICLR 2025},
+  year={2025},
 }
 {% endhighlight %}
