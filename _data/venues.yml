@@ -29,3 +29,7 @@
 "ICLR":
   url: https://iclr.cc/
   color: "#86C73E"
+
+"ICLR Blogpost":
+  url: https://iclr-blogposts.github.io/2025/about/
+  color: "#86C73E"
